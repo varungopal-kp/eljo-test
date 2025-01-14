@@ -8,7 +8,7 @@ export default function Loader() {
     (state) =>
       state.common?.loading || state.auth?.loading || state.transfer?.loading
   );
-  console.log(loading);
+  
   if (!loading) return null;
   return (
     <div className="loader">
