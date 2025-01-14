@@ -7,6 +7,7 @@ Node.js Version: 20.18
 Environment: Windows 10
 
 Dependencies: The application relies on the following hidden environment variables, which are not included in the submission for security reasons:
+
         #### 1. `REACT_APP_GOOGLE_CLIENT_ID`
         - Used for Google authentication or API integration.
         - This variable needs to be added to the `.env` file.
